@@ -29,9 +29,10 @@
   --fw-regular: 400;
   --fw-semi-bold: 600;
 
-  --fs-sm: 12px; /* 15px */
+  --fs-sm: 12px; 
   --fs-base: 0.9375rem; /* 15px */
-  --fs-md: 1.25rem; /* 15px */
+  --fs-md: 1.25rem; 
+  --fs-lg: 2rem; 
 
   /* Spacing */
   --spacing-1: 4px;
@@ -42,4 +43,5 @@
   --spacing-6: 24px;
   --spacing-7: 36px;
   --spacing-8: 48px;
+  --spacing-9: 60px;
 }

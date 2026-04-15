@@ -105,13 +105,22 @@ body {
   clip: rect(0, 0, 0, 0);
   white-space: nowrap;
   border-width: 0;
-} 
+}
 
 @media (min-width: 900px) {
+  .header__title {
+    font-size: var(--fs-lg);
+  }
+
+  .header__description {
+    max-width: 55ch;
+  }
+
   .main {
     flex-direction: row;
     align-items: center;
     justify-content: center;
     min-height: 300px;
+    margin-top: var(--spacing-9);
   }
 }
