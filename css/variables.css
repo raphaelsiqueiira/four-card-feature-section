@@ -1,0 +1,45 @@
+:root {
+  /* Colors*/
+  --clr-red: hsl(0, 78%, 62%);
+  --clr-cyan: hsl(180, 62%, 55%);
+  --clr-orange: hsl(34, 97%, 64%);
+  --clr-blue: hsl(212, 86%, 64%);
+
+  --clr-grey-500: hsl(234, 12%, 34%);
+  --clr-grey-400: hsl(212, 6%, 44%);
+  --clr-grey-100: hsl(212, 6%, 98%);
+  --clr-white: hsl(0, 0%, 100%);
+
+  --headings-clr: var(--clr-grey-500);
+  --paragraph-clr: var(--clr-grey-400);
+
+  --clr-accent-1: var(--clr-cyan);
+  --clr-accent-2: var(--clr-red);
+  --clr-accent-3: var(--clr-orange);
+  --clr-accent-4: var(--clr-blue);
+
+  --bg-body: var(--clr-grey-100);
+  --bg-card: var(--clr-white);
+
+  /* Typography*/
+
+  --ff-primary: "Poppins", sans-serif;
+
+  --fw-extra-light: 200;
+  --fw-regular: 400;
+  --fw-semi-bold: 600;
+
+  --fs-sm: 12px; /* 15px */
+  --fs-base: 0.9375rem; /* 15px */
+  --fs-md: 1.25rem; /* 15px */
+
+  /* Spacing */
+  --spacing-1: 4px;
+  --spacing-2: 8px;
+  --spacing-3: 12px;
+  --spacing-4: 16px;
+  --spacing-5: 20px;
+  --spacing-6: 24px;
+  --spacing-7: 36px;
+  --spacing-8: 48px;
+}

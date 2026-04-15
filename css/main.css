@@ -1,0 +1,117 @@
+body {
+  font-family: var(--ff-primary), sans-serif;
+  font-size: var(--fs-base);
+  color: var(--paragraph-clr);
+  font-weight: var(--fw-regular);
+  background-color: var(--bg-body);
+  padding: var(--spacing-8) var(--spacing-6);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.header {
+  color: var(--headings-clr);
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-4);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__title {
+  font-weight: var(--fw-extra-light);
+  max-width: 25ch;
+  line-height: 1.2;
+}
+
+.header__strong {
+  font-weight: var(--fw-semi-bold);
+}
+
+.header__description {
+  max-width: 32ch;
+}
+
+.main {
+  margin-top: var(--spacing-8);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-7);
+}
+
+.card__column {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-7);
+}
+
+.main__card {
+  background-color: var(--bg-card);
+  padding: var(--spacing-6) var(--spacing-7);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: var(--spacing-1);
+  box-shadow: 4px 4px 10px 0px #00000033;
+  max-width: 350px;
+}
+
+.main__card--supervisor {
+  border-top: 3px solid var(--clr-accent-1);
+}
+.main__card--team {
+  border-top: 3px solid var(--clr-accent-2);
+}
+.main__card--karma {
+  border-top: 3px solid var(--clr-accent-3);
+}
+.main__card--calculator {
+  border-top: 3px solid var(--clr-accent-4);
+}
+
+.card__title {
+  color: var(--headings-clr);
+  font-weight: var(--fw-semi-bold);
+  font-size: var(--fs-md);
+}
+
+.card__description {
+  font-size: var(--fs-sm);
+  max-width: 35ch;
+  margin-bottom: var(--spacing-6);
+}
+
+.card__icon-container {
+  align-self: flex-end;
+  align-self: end;
+  width: 64px;
+  height: 64px;
+  margin: var(--spacing-2) 0;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+} 
+
+@media (min-width: 900px) {
+  .main {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    min-height: 300px;
+  }
+}
